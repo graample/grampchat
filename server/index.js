@@ -9,5 +9,5 @@ require('dotenv').config();
 const port = process.env.PORT || 8000;
 
 httpServer.listen(port, () => {
-  console.log('listening on port: ' + port)
+  console.log('listening on port: ' + port);
 });
